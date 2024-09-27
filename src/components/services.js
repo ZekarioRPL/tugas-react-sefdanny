@@ -6,39 +6,21 @@ const servicesData = [
   {
     id: 1,
     icon: 'fas fa-clone',
-    title: 'Responsive Design',
+    title: 'Design yang Responsive',
     description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, vel! Accusantium hic fugiat laudantiu earum consequuntur, unde nam et mollitia eaque incidunt sed.'
   },
   {
     id: 2,
     icon: 'fas fa-snowflake',
-    title: 'Creative Design',
+    title: 'Design yang Creative',
     description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, vel! Accusantium hic fugiat laudantiu earum consequuntur, unde nam et mollitia eaque incidunt sed.'
   },
   {
     id: 3,
     icon: 'fas fa-plug',
-    title: 'SEO Optimized',
+    title: 'Design Terbaik',
     description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, vel! Accusantium hic fugiat laudantiu earum consequuntur, unde nam et mollitia eaque incidunt sed.'
   },
-  {
-    id: 4,
-    icon: 'fas fa-desktop',
-    title: 'Retina Ready',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, vel! Accusantium hic fugiat laudantiu earum consequuntur, unde nam et mollitia eaque incidunt sed.'
-  },
-  {
-    id: 5,
-    icon: 'fas fa-trophy',
-    title: 'Brower Compatibility',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, vel! Accusantium hic fugiat laudantiu earum consequuntur, unde nam et mollitia eaque incidunt sed.'
-  },
-  {
-    id: 6,
-    icon: 'fas fa-life-ring',
-    title: 'Customer Support',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, vel! Accusantium hic fugiat laudantiu earum consequuntur, unde nam et mollitia eaque incidunt sed.'
-  }
 ]
 
 function AppServices() {
@@ -46,8 +28,8 @@ function AppServices() {
     <section id="services" className="block services-block">
       <Container fluid>
         <div className="title-holder">
-          <h2>Our services</h2>
-          <div className="subtitle">services we provide</div>
+          <h2>Pelayanan</h2>
+          <div className="subtitle">Pelayanan Dari Kami</div>
         </div>
         <Row>
           {

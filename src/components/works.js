@@ -9,63 +9,42 @@ const worksData = [
     id: 1,
     link: 'https://www.google.com',
     image: require('../assets/images/img2.jpg'),
-    title: 'Lonely Path',
+    title: 'Example 1',
     subtitle: 'Web Design'
   },
   {
     id: 2,
     link: 'https://www.google.com',
     image: require('../assets/images/img3.jpg'),
-    title: 'Photographer Girl',
+    title: 'Example 2',
     subtitle: 'Branding'
   },
   {
     id: 3,
     link: 'https://www.google.com',
     image: require('../assets/images/img4.jpg'),
-    title: 'The Difference',
+    title: 'Example 3',
     subtitle: 'Web Design'
   },
   {
     id: 4,
     link: 'https://www.google.com',
     image: require('../assets/images/img5.jpg'),
-    title: 'Nature Patterns',
+    title: 'Example 4',
     subtitle: 'Branding'
   },
   {
     id: 5,
     link: 'https://www.google.com',
     image: require('../assets/images/img6.jpg'),
-    title: 'The Difference',
+    title: 'Example 5',
     subtitle: 'Photography'
   },
   {
     id: 6,
     link: 'https://www.google.com',
     image: require('../assets/images/img7.jpg'),
-    title: 'Winter Sonata',
-    subtitle: 'Web Design'
-  },
-  {
-    id: 7,
-    link: 'https://www.google.com',
-    image: require('../assets/images/img8.jpg'),
-    title: 'Lonely Path',
-    subtitle: 'Branding'
-  },
-  {
-    id: 8,
-    link: 'https://www.google.com',
-    image: require('../assets/images/img9.jpg'),
-    title: 'Appreciation',
-    subtitle: 'Photography'
-  },
-  {
-    id: 9,
-    link: 'https://www.google.com',
-    image: require('../assets/images/img2.jpg'),
-    title: 'Happy Days',
+    title: 'Example 6',
     subtitle: 'Web Design'
   }
 ]
@@ -85,8 +64,8 @@ function AppWorks() {
     <section id="works" className="block works-block">
       <Container fluid>
         <div className="title-holder">
-          <h2>Our works</h2>
-          <div className="subtitle">our awesome works</div>
+          <h2>Pengalaman Kerja</h2>
+          <div className="subtitle">Pekerjaan </div>
         </div>
         <Row className='portfoliolist'>
           {
